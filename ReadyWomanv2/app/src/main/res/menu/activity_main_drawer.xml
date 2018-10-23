@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/likeList"
+        android:title="찜목록" />
+
+    <item android:title="국/시비 지원 프로그램"
+        >
+        <menu>
+            <item
+                android:id="@+id/national1"
+                android:title="내일배움 카드제" />
+            <item
+                android:id="@+id/national2"
+                android:title="근로자 카드제" />
+            <item
+                android:id="@+id/national3"
+                android:title="서울시 지원사업" />
+            <item
+                android:id="@+id/national4"
+                android:title="여성가족부 지원" />
+            <item
+                android:id="@+id/national5"
+                android:title="기타지원 직업훈련" />
+            <item
+                android:id="@+id/national6"
+                android:title="집단상담" />
+        </menu>
+    </item>
+</menu>
